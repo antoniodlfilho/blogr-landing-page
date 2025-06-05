@@ -1,0 +1,33 @@
+.footer-bg {
+  display: flex;
+  font-family: "Ubuntu", sans-serif;
+  background-color: hsl(240, 10%, 16%);
+  height: 42%;
+  padding-left: 180px;
+  flex-wrap: wrap;
+  padding-top: 68px;
+  border-top-right-radius: 95px;
+}
+
+.container-links {
+  display: flex;
+  gap: 240px;
+}
+
+.links-footer h3 {
+  color: hsl(0, 100%, 100%);
+  font-weight: 500;
+  margin: 8px 0px 20px 0px;
+}
+
+.links-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: hsla(0, 0%, 100%, 0.74);
+}
+
+.links-footer ul li a:hover {
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.74);
+  /* transition: 0.2s; */
+}

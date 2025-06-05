@@ -1,0 +1,152 @@
+.info-designed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  position: relative;
+}
+
+.info-designed h1 {
+  position: absolute;
+  font-family: "Overpass", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  color: hsl(208, 49%, 24%);
+  /* margin-top: 100px; */
+  top: 180px;
+}
+
+.designed-text {
+  display: flex;
+  gap: 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.designed-container {
+  padding-left: 180px;
+}
+
+.designed-container h2 {
+  font-family: "Overpass", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: hsl(208, 49%, 24%);
+}
+
+.title-margin {
+  margin-top: 70px;
+}
+
+.paragr-margin {
+  margin: 20px 0px 60px 0px !important;
+}
+
+.designed-container p {
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+  width: 570px;
+  margin: 20px 0px 40px 0px;
+  color: hsl(207, 13%, 34%);
+}
+
+.img-designed img {
+  max-width: fit-content;
+}
+
+/* SECTION STATE */
+
+.state {
+  height: 42%;
+  background-image: url("../images/bg-pattern-circles.svg"),
+    linear-gradient(0.25turn, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
+  background-repeat: no-repeat;
+  background-position: 0% 85%;
+  border-bottom-left-radius: 95px;
+  border-top-right-radius: 95px;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.cantainer-state {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  justify-content: center;
+  right: 356px;
+  top: -84px;
+}
+
+.state-img img {
+  width: 580px;
+  max-width: 100%;
+}
+
+.state-info p {
+  width: 500px;
+}
+
+.state-info h1 {
+  font-family: "Overpass", sans-serif;
+  font-size: 38px;
+  font-weight: 500;
+  color: hsl(0, 100%, 100%);
+}
+
+.state-info p {
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  width: 570px;
+  margin: 20px 0px 40px 0px;
+  color: hsla(0, 0%, 100%, 0.87);
+}
+
+/* APPLICATION */
+
+.application-designed {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+.application-text {
+  display: flex;
+  gap: 13%;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.application-container {
+  padding-right: 0px;
+  padding-bottom: 30px;
+}
+
+.application-container h2 {
+  font-family: "Overpass", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: hsl(208, 49%, 24%);
+}
+
+.application-container p {
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+  width: 570px;
+  margin: 20px 0px 40px 0px;
+  color: hsl(207, 13%, 34%);
+}
+
+.paragr-margin-appli {
+  margin: 20px 0px 60px 0px !important;
+}
+
+.img-application img {
+  max-width: fit-content;
+  padding-left: 105px;
+}

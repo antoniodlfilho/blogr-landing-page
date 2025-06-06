@@ -54,6 +54,39 @@
   max-width: fit-content;
 }
 
+@media (max-width: 1440px) {
+  .info-designed h1 {
+    top: 140px;
+  }
+
+  .designed-container {
+    padding-left: 315px;
+  }
+
+  .info-designed {
+    padding-top: 65px;
+  }
+
+  .designed-text {
+    gap: 6%;
+  }
+
+  .designed-container h2 {
+    font-family: "Overpass", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: hsl(208, 49%, 24%);
+  }
+
+  .designed-container p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    width: 510px;
+    margin: 20px 0px 40px 0px;
+    color: hsl(207, 13%, 34%);
+  }
+}
+
 /* SECTION STATE */
 
 .state {
@@ -104,6 +137,49 @@
   color: hsla(0, 0%, 100%, 0.87);
 }
 
+@media (max-width: 1440px) {
+  .state {
+    height: 40%;
+    background-image: url(../images/bg-pattern-circles.svg),
+      linear-gradient(0.25turn, hsl(237, 17%, 21%), hsl(237, 23%, 31%));
+    background-repeat: no-repeat;
+    background-position: -50% 85%;
+    border-bottom-left-radius: 95px;
+    border-top-right-radius: 95px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    position: relative;
+  }
+
+  .cantainer-state {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    right: 240px;
+    top: -65px;
+  }
+
+  .state-img img {
+    width: 480px;
+    max-width: 100%;
+  }
+
+  .state-info h1 {
+    font-size: 34px;
+  }
+
+  .state-info p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    width: 520px;
+    margin: 16px 0px 40px 0px;
+    color: hsla(0, 0%, 100%, 0.87);
+  }
+}
+
 /* APPLICATION */
 
 .application-designed {
@@ -149,4 +225,47 @@
 .img-application img {
   max-width: fit-content;
   padding-left: 105px;
+}
+
+@media (max-width: 1440px) {
+  .application-designed {
+    display: block;
+    margin-right: 181px;
+    padding-top: 15px;
+    padding-bottom: 100px;
+  }
+
+  .application-text {
+    display: flex;
+    gap: 4%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .img-application img {
+    max-width: fit-content;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .application-container {
+    padding-right: 0px;
+    padding-bottom: 30px;
+  }
+
+  .application-container h2 {
+    font-family: "Overpass", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: hsl(208, 49%, 24%);
+  }
+
+  .application-container p {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    width: 510px;
+    margin: 20px 0px 40px 0px;
+    color: hsl(207, 13%, 34%);
+  }
 }

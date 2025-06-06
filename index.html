@@ -24,8 +24,8 @@
       </div>
       <nav class="nav-items">
         <ul>
-          <li><a href="">Product <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
-            <ul class="menu-drop-one">
+          <li><a id="menu_drop_one" href="#">Product <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
+            <ul class="menu-drop-one" id="active_menu_one">
               <li><a href="#">Overview</a></li>
               <li><a href="#">Pricing</a></li>
               <li><a href="#">Marketplace</a></li>
@@ -33,16 +33,16 @@
               <li><a href="#">Integrations</a></li>
             </ul>
           </li>
-          <li><a href="">Company <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
-            <ul class="menu-drop-two">
+          <li><a id="menu_drop_two" href="#">Company <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
+            <ul class="menu-drop-two" id="active_menu_two">
               <li><a href="#">About</a></li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Careers</a></li>
             </ul>
           </li>
-          <li><a href="">Connect <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
-            <ul class="menu-drop-tree">
+          <li><a id="menu_drop_tree" href="#">Connect <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
+            <ul class="menu-drop-tree" id="active_menu_tree">
               <li><a href="#">Contact</a></li>
               <li><a href="#">Newsletter</a></li>
               <li><a href="#">LinkedIn</a></li>
@@ -147,7 +147,7 @@
   <footer class="footer-bg">
     <div class="container-links">
       <div>
-        <img src="images/logo.svg" alt="">
+        <a href="#"><img src="images/logo.svg" alt=""></a>
       </div>
       <div class="links-footer">
         <h3>Product</h3>
@@ -181,6 +181,7 @@
     </div>
   </footer>
 
+  <script src="script/script.js"></script>
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.

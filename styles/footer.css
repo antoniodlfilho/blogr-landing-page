@@ -31,3 +31,10 @@
   border-bottom: 2px solid hsla(0, 0%, 100%, 0.74);
   /* transition: 0.2s; */
 }
+
+@media (max-width: 1440px) {
+  .container-links {
+    display: flex;
+    gap: 195px;
+  }
+}

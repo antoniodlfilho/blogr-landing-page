@@ -38,3 +38,26 @@
     gap: 195px;
   }
 }
+
+@media (max-width: 420px) {
+  .footer-bg {
+    display: flex;
+    font-family: "Ubuntu", sans-serif;
+    background-color: hsl(240, 10%, 16%);
+    height: 100%;
+    padding-left: 0px;
+    flex-wrap: wrap;
+    padding-top: 68px;
+    padding-bottom: 50px;
+    border-top-right-radius: 95px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .container-links {
+    display: flex;
+    gap: 52px;
+    flex-direction: column;
+  }
+}

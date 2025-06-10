@@ -23,8 +23,14 @@
         <a href="#"><img src="images/logo.svg" alt="logo blogr"></a>
       </div>
       <nav class="nav-items">
-        <ul>
-          <li><a id="menu_drop_one" href="#">Product <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
+        <img class="menu-mobi" id="menu_mobile" src="images/icon-hamburger.svg" alt="menu">
+        <ul id="list_menu_mobile">
+          <li><a id="menu_drop_one" href="#">Product
+              <picture>
+                <source media="(max-width: 420px)" srcset="images/icon-arrow-dark.svg">
+                <img id="menu_open" class="arrow-menu" src="images/icon-arrow-light.svg">
+              </picture>
+            </a>
             <ul class="menu-drop-one" id="active_menu_one">
               <li><a href="#">Overview</a></li>
               <li><a href="#">Pricing</a></li>
@@ -33,7 +39,12 @@
               <li><a href="#">Integrations</a></li>
             </ul>
           </li>
-          <li><a id="menu_drop_two" href="#">Company <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
+          <li><a id="menu_drop_two" href="#">Company
+              <picture>
+                <source media="(max-width: 420px)" srcset="images/icon-arrow-dark.svg">
+                <img id="menu_open_two" class="arrow-menu" src="images/icon-arrow-light.svg">
+              </picture>
+            </a>
             <ul class="menu-drop-two" id="active_menu_two">
               <li><a href="#">About</a></li>
               <li><a href="#">Team</a></li>
@@ -41,18 +52,23 @@
               <li><a href="#">Careers</a></li>
             </ul>
           </li>
-          <li><a id="menu_drop_tree" href="#">Connect <img class="arrow-menu" src="images/icon-arrow-light.svg"></a>
+          <li><a id="menu_drop_tree" href="#">Connect
+              <picture>
+                <source media="(max-width: 420px)" srcset="images/icon-arrow-dark.svg">
+                <img id="menu_open_tree" class="arrow-menu" src="images/icon-arrow-light.svg">
+              </picture>
+            </a>
             <ul class="menu-drop-tree" id="active_menu_tree">
               <li><a href="#">Contact</a></li>
               <li><a href="#">Newsletter</a></li>
               <li><a href="#">LinkedIn</a></li>
             </ul>
           </li>
+          <div class="btn-nav">
+            <button class="btn-login">Login</button>
+            <button class="btn-singup">Sing Up</button>
+          </div>
         </ul>
-        <div class="btn-nav">
-          <button class="btn-login">Login</button>
-          <button class="btn-singup">Sing Up</button>
-        </div>
       </nav>
 
     </header>
@@ -98,7 +114,10 @@
         </p>
       </div>
       <div class="img-designed">
-        <img src="images/illustration-editor-desktop.svg" alt="">
+        <picture>
+          <source media="(max-width: 420px)" srcset="images/illustration-editor-mobile.svg">
+          <img src="images/illustration-editor-desktop.svg" alt="">
+        </picture>
       </div>
     </div>
   </section>
@@ -139,7 +158,10 @@
         </p>
       </div>
       <div class="img-application">
-        <img src="images/illustration-laptop-desktop.svg" alt="">
+        <picture>
+          <source media="(max-width: 420px)" srcset="images/illustration-laptop-mobile.svg">
+          <img src="images/illustration-laptop-desktop.svg" alt="">
+        </picture>
       </div>
     </div>
   </section>

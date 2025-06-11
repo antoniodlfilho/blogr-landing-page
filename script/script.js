@@ -43,8 +43,3 @@ menuTree.addEventListener("click", menuOnTree);
 menuMobileActive.addEventListener("click", menuMobileOn);
 menuMobileActive.addEventListener("click", imgTroca);
 
-// const menuDropOn = document.querySelectorAll("#menu-drop");
-
-// menuDropOn.forEach(i) => {
-//    console.log(i);
-// }

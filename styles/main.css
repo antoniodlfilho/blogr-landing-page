@@ -93,6 +93,7 @@
   left: -79px;
   flex-direction: column;
   gap: 4px;
+  box-shadow: 0px 0px 10px 0px hsl(208deg 49% 24% / 58%);
 }
 
 .menu-drop-one > lu > li > a {
@@ -116,6 +117,7 @@
   left: 83px;
   flex-direction: column;
   gap: 4px;
+  box-shadow: 0px 0px 10px 0px hsl(208deg 49% 24% / 58%);
 }
 
 .menu-drop-two > lu > li > a {
@@ -139,6 +141,7 @@
   left: 244px;
   flex-direction: column;
   gap: 4px;
+  box-shadow: 0px 0px 10px 0px hsl(208deg 49% 24% / 58%);
 }
 
 .menu-drop-tree > lu > li > a {
@@ -331,6 +334,7 @@
     align-items: center;
     margin-top: 12px;
     font-weight: 500;
+    box-shadow: none;
   }
 
   .menu-drop-two {
@@ -348,6 +352,7 @@
     align-items: center;
     margin-top: 12px;
     font-weight: 500;
+    box-shadow: none;
   }
 
   .menu-drop-tree {
@@ -365,6 +370,7 @@
     align-items: center;
     margin-top: 12px;
     font-weight: 500;
+    box-shadow: none;
   }
 }
 
